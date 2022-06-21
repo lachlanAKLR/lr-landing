@@ -38,12 +38,5 @@ a, p, li, ul, h1, h2 {
   z-index: -100;
 }
 
-@media screen and (max-width: 599px) {
-
-  .gatsby-image-wrapper {
-        width: 75%;
-      }
-  }
-
 `;
 export default GlobalStyles;

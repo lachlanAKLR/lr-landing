@@ -45,7 +45,7 @@ const NavStyles = styled.div`
 
 
   @media screen and (max-width: 599px) {
-
+ 
     .nav-top {
       display: flex;
       flex-direction: column;
@@ -63,12 +63,9 @@ const NavStyles = styled.div`
 
     .nav-bottom {
       display: flex;
-      gap: 40px;
+      gap: 40px; 
     }
 
-    .gatsby-image-wrapper {
-      width: 75% !important;
-    }
 
   }
 
