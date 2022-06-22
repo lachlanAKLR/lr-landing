@@ -12,6 +12,7 @@ const GlobalStyles = createGlobalStyle`
 body {
   padding: 0;
   margin: 0;
+  background-color: #c7fb83;
 }
 
 @font-face {
@@ -21,8 +22,8 @@ body {
 
 a, p, li, ul, h1, h2 {
   font-family: 'Art-Company-Mono', Courier New;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 22px;
+  line-height: 24px;
   text-decoration: none;
   font-weight: normal;
   list-style: none;

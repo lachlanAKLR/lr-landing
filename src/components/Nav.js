@@ -10,19 +10,20 @@ const NavStyles = styled.div`
 
   .nav-top, .nav-bottom {
     display: grid;
+    gap: 20px;
     grid-template-columns: repeat(12, 1fr);
   }
 
   .nav-top-left, .nav-time {
-    grid-column: 1/3;
+    grid-column: 1/4;
   }
 
   .nav-top-right {
-    grid-column: 3/8;
+    grid-column: 4/9;
   }
 
   .nav-top-cv {
-    grid-column: 10/12;
+    grid-column: 10/13;
   }
 
   .nav-time {
@@ -40,11 +41,11 @@ const NavStyles = styled.div`
   }
 
   .nav-date {
-    grid-column: 3/4;
+    grid-column: 4/9;
   }
 
 
-  @media screen and (max-width: 599px) {
+  @media screen and (max-width: 799px) {
  
     .nav-top {
       display: flex;
@@ -54,10 +55,11 @@ const NavStyles = styled.div`
     .nav-bottom  {
       position: relative;
       padding-top: 20px;
+      gap: 0;
     }
 
     .nav-top-cv, .nav-top-right {
-      padding-top: 20px;
+      padding-top: 0;
       max-width: 320px;
     }
 
