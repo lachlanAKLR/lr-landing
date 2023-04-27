@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-import font from '../assets/fonts/ArtCompanyMono-Light.woff';
+import font from '../assets/fonts/ScrambleFont.woff';
 
 const GlobalStyles = createGlobalStyle`
 
@@ -12,7 +12,7 @@ const GlobalStyles = createGlobalStyle`
 body {
   padding: 0;
   margin: 0;
-  background-color: #c7fb83;
+  /* background-color: #c7fb83; */
 }
 
 @font-face {
@@ -22,8 +22,8 @@ body {
 
 a, p, li, ul, h1, h2 {
   font-family: 'Art-Company-Mono', Courier New;
-  font-size: 22px;
-  line-height: 24px;
+  font-size: 32px;
+  line-height: 32px;
   text-decoration: none;
   font-weight: normal;
   list-style: none;
@@ -32,11 +32,25 @@ a, p, li, ul, h1, h2 {
   color: black;
 }
 
+a {
+  text-shadow: 0px 0px 5px #d8ff3d, 0px 0px 5px #d8ff3d, 0px 0px 5px #d8ff3d; 
+}
+
 .gatsby-image-wrapper {
   width: 50%;
   position: fixed;
   bottom: 0%;
   z-index: -100;
+}
+
+@media screen and (max-width: 799px) {
+
+  a, p, li, ul, h1, h2 {
+  font-size: 24px;
+  line-height: 24px;
+
+}
+
 }
 
 `;
