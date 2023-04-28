@@ -31,7 +31,7 @@ const NavStyles = styled.div`
   }
 
   .nav-padding {
-    padding-top: 20px;
+    padding-top: 32px;
   }
 
   .nav-bottom {
