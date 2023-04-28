@@ -44,6 +44,16 @@ const NavStyles = styled.div`
     grid-column: 4/9;
   }
 
+  .aklr_link {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 
   @media screen and (max-width: 799px) {
  
@@ -84,6 +94,7 @@ export default function Nav() {
           <h1>Australia</h1> 
           <a target="blank" href="mailto:lachlantrichards@gmail.com"><h1 className="nav-padding">Email</h1></a> 
           <a target="blank" href="https://www.instagram.com/lachy_richards/"><h1>Instagram</h1></a> 
+          <a className="aklr_link" target="blank" href="https://aklr.xyz/"><h1>AKLR</h1></a> 
           </div>
         <div className="nav-top-right">
           <p>I RESPECTFULLY ACKNOWLEDGE THE TRADITIONAL OWNERS OF THE LAND ON WHICH I WORK, THE BOON WURRUNG AND WOIWURRUNG (WURUNDJERI) PEOPLES OF THE KULIN NATION AND PAY RESPECT TO THEIR ELDERS, PAST AND PRESENT.</p>
